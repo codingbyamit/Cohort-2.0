@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    background-color: whitesmoke;
+}
+
+#main > nav {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+#main > nav h2 {
+    text-align: left;
+    display: inline-block;
+}
+#main nav ul {
+    display: inline-block;
+    margin-left: 50%;
+}
+
+#main nav li {
+    display: inline-block;
+    text-align: end;
+}
+#main nav li a {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#leftdiv {
+    width: 400px;
+    padding: 20px 30px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+#leftdiv h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+#leftdiv button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#bottomBar {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 20px 40px;
+}
+#bottomBar h6 {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 200;
+}
+#bottomBar h2 {
+    text-align: end;
+}
+
+#bottomBar h2 span {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+#mainImg {
+    position: absolute;
+    right: 20%;
+}
